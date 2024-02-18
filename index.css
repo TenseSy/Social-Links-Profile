@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: hsl(0, 0%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+}
+
+.profile {
+    height: 550px;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgb(31, 31, 31);
+    border-radius: 1rem;
+}
+.profile img{
+    border-radius: 100px;
+    width: 80px;
+}
+
+.profile h1{
+    color: hsl(0, 0%, 100%);
+    font-family: 700;
+    font-size: 24px;
+    margin: 0;
+}
+
+p {
+    color: hsl(75, 94%, 57%);
+    margin: 5px;
+    padding-bottom: 30px;
+    font-size: 14px;
+}
+
+span {
+    color: hsl(0, 0%, 100%);
+    font-family: 400;
+    font-size: 14px;
+}
+
+.links {
+    padding-top: 10px;
+    justify-content: center;
+}
+.links ul {
+    padding: 0px;
+    margin: 0;
+}
+
+.links ul li {
+    text-decoration: none;
+    list-style: none;
+    padding: 10px;
+}
+
+.links ul li a {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+    background: hsl(0, 0%, 20%);
+    padding: 13px;
+    display: block;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    width: 280px;
+    box-sizing: border-box; 
+    text-align: center;
+}
+
+.links ul li a:hover {
+    background: hsl(75, 94%, 57%);
+}
+
+@media screen and (max-width: 375px) {
+    .profile {
+        height: 530px;
+        width: 280px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: hsl(0, 0%, 12%);
+        border-radius: 1rem;
+        padding: 10px 0px 5px 0px;
+    }
+
+    .profile img{
+        border-radius: 100px;
+        width: 80px;
+    }
+    
+    .profile h1{
+        color: hsl(0, 0%, 100%);
+        font-family: 700;
+        font-size: 24px;
+        margin: 0;
+    }
+    
+    p {
+        color: hsl(75, 94%, 57%);
+        margin: 5px;
+        padding-bottom: 30px;
+        font-size: 14px;
+    }
+    
+    span {
+        color: hsl(0, 0%, 100%);
+        font-family: 400;
+        font-size: 14px;
+    }
+    
+    .links {
+        padding-top: 10px;
+        justify-content: center;
+    }
+    .links ul {
+        padding: 0px;
+        margin: 0;
+    }
+    
+    .links ul li {
+        text-decoration: none;
+        list-style: none;
+        padding: 10px;
+    }
+    
+    .links ul li a {
+        text-decoration: none;
+        color: hsl(0, 0%, 100%);
+        font-weight: 600;
+        background: hsl(0, 0%, 20%);
+        padding: 13px;
+        display: block;
+        border-radius: 8px;
+        transition: background-color 0.5s ease;
+        width: 250px;
+        box-sizing: border-box; 
+        text-align: center;
+    }
+    .links ul li a:hover {
+        background: hsl(75, 94%, 57%);
+    }
+
+  }
